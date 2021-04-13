@@ -6,7 +6,7 @@ public class GCD_LCM {
 		// TODO Auto-generated method stub
 
 	}
-	static int gcd(int a, int b) {
+	static int gcd(int a, int b) {//when a<b
 		if (a % b == 0) {
 			return b;
 		} else
